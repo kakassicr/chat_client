@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chatbs</string>
+    <string name="login">Login</string>
+    <string name="publish_message">Publish message</string>
+    <string name="message_content_can_not_be_empty">Message content can\'t be empty</string>
+    <string name="fail_to_login">Fail to login,please try later</string>
+    <string name="fail_to_send_message">Fail to send message,please try later</string>
+    <string name="suc_to_get_code">Success to get code,please check your short message</string>
+    <string name="suc_to_publish">Success to publish message</string>
+    <string name="connecting">Connecting</string>
+    <string name="connecting_to_server">Connecting to server,please wait</string>
+    <string name="publish">publish</string>
+
+</resources>
