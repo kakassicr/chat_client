@@ -2,8 +2,8 @@ package com.chat;
 
 public class Config {
 	public static final String CHARSET = "utf-8";
-	public static final String SERVER_URL = "http://169.254.25.129:8080/ChatServer/actionser";
-//	public static final String SERVER_URL = "http://192.168.0.104:8080/ChatServer/actionser";
+//	public static final String SERVER_URL = "http://169.254.25.129:8080/ChatServer/actionser";
+	public static final String SERVER_URL = "http://192.168.0.104:8080/ChatServer/actionser";
 	
 	public static final String KEY_ACTION = "action";
 	public static final String KEY_ACCOUNT = "account";

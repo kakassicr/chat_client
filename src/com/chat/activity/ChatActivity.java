@@ -6,16 +6,13 @@ import java.util.List;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
-import android.content.ComponentName;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.ServiceConnection;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.os.IBinder;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -30,7 +27,6 @@ import com.chat.R;
 import com.chat.common.Message;
 import com.chat.db.MyDatabaseHelper;
 import com.chat.net.SendMessage;
-import com.chat.service.QueryMessage;
 import com.chat.service.ShowMessage;
 
 public class ChatActivity extends Activity implements OnClickListener {

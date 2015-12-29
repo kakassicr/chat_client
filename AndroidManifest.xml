@@ -27,7 +27,6 @@
         <service android:name=".service.QueryMessage"></service>
         <service android:name=".service.ShowMessage"></service>
 		<receiver android:name=".service.AlarmReceiver" ></receiver>
-		<receiver android:name=".service.AlarmReceiverForShowMessage" ></receiver>
     </application>
 
 </manifest>

@@ -9,7 +9,6 @@ import android.app.Service;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
-import android.os.Binder;
 import android.os.IBinder;
 import android.os.SystemClock;
 import android.util.Log;
@@ -59,7 +58,7 @@ public class ShowMessage extends Service {
 				if(!mAccount.equals(friend)){
 					for(int i=0;i<Messages.size();i++){
 						msg=Messages.get(i);
-						//如果在聊
+						//如果在和对方聊天，则在ChatActivity显示消息
 						if(msg.getSender().equals(friend)){
 							msgArray.add(msg.getCon());
 							Log.d("Query", "msgArrayinfor:"+msgArray.size());

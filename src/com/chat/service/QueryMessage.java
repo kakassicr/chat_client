@@ -1,7 +1,6 @@
 package com.chat.service;
 
 import java.util.List;
-import java.util.TimerTask;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -9,7 +8,6 @@ import android.app.Service;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
-import android.os.Binder;
 import android.os.IBinder;
 import android.os.SystemClock;
 import android.util.Log;

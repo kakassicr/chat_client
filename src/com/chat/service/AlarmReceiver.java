@@ -1,11 +1,10 @@
 package com.chat.service;
 
-import com.chat.activity.ListActivity;
-
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
+
+import com.chat.activity.ListActivity;
 
 public class AlarmReceiver extends BroadcastReceiver {
 	String friend;
